@@ -1,0 +1,45 @@
+.todo-list-container {
+  margin-bottom: 2rem;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  gap: 10px;
+}
+
+.filter-btn {
+  background: #f5f7fa;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #e1e5eb;
+}
+
+.filter-btn.active {
+  background: #3498db;
+  color: white;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.empty-list {
+  text-align: center;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  color: #6c757d;
+  font-size: 1.1rem;
+}
